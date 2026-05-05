@@ -4,12 +4,12 @@
     "description": "A simple WhatsApp Bot Based On WhiskeySockets/Baileys",
     "main": "index.js",
     "scripts": {
-        "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || npm install sharp@0.32.6 --no-save",
+       "postinstall": "npx esbuild node_modules/@whiskeysockets/baileys/lib/index.js --bundle --platform=node --format=cjs --external:jimp --external:sharp --outfile=node_modules/baileys.js && (node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || npm install sharp@0.32.6 --no-save)",
         "start": "pm2 start . --attach --name jarvis",
         "stop": "pm2 stop jarvis"
     },
     "engines": {
-        "node": ">=18.0.0 <=24.x"
+        "node": ">=18.0.0 <=25.x"
     },
     "license": "MIT",
     "dependencies": {
