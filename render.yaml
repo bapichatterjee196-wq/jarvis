@@ -13,7 +13,7 @@ services:
       - key: RENDER_API
         value: "rnd_BmVrrSJ7FKhmaR7m6HunqHrOVQEG"
       - key: SESSION_ID
-        value: "Jarvis_0x1x_481x_91v6_8v25_8364_3u9x_27vu_4041"
+        value: "Jarvis_75v2_9vxv_w2v7_y487_8888_3w55_871u_x0y7"
       - key: DATABASE_URL
         value: "postgresql://hope_xhxm_user:aZvGt0VwTvXNsW5vgBMbjNinhu2WNBsL@dpg-d9ci7inavr4c73aba97g-a.oregon-postgres.render.com/hope_xhxm"
       - key: HANDLER
