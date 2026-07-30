@@ -11,15 +11,15 @@ services:
       - key: RENDER_APP_NAME
         value: "jarvis"
       - key: RENDER_API
-        value: "rnd_BmVrrSJ7FKhmaR7m6HunqHrOVQEG"
+        value: "rnd_fa1hRxasEwfoR4w8j8PVcUFX1A0z"
       - key: SESSION_ID
-        value: "Jarvis_75v2_9vxv_w2v7_y487_8888_3w55_871u_x0y7"
+        value: "Jarvis_035v_216z_yuyv_9261_zv12_1619_x1uz_6xv1"
       - key: DATABASE_URL
         value: "postgresql://hope_xhxm_user:aZvGt0VwTvXNsW5vgBMbjNinhu2WNBsL@dpg-d9ci7inavr4c73aba97g-a.oregon-postgres.render.com/hope_xhxm"
       - key: HANDLER
-        value: "!"
+        value: "."
       - key: WORK_TYPE
-        value: "private"
+        value: "public"
       - key: ERROR_MSG
         value: "true"
       - key: BOT_INFO
@@ -31,11 +31,11 @@ services:
       - key: STICKER_PACKNAME
         value: "ᴃ𝗍／𝗐𝗈𝗋𝗅𝗗𐌌ꙮ⍆ꕶ🌟🐊❳"
       - key: SUDO
-        value: "917025673121"
+        value: "919242099910"
       - key: WARN_COUNT
-        value: "3"
+        value: "1"
       - key: ALLWAYS_ONLINE
-        value: "false"
+        value: "true"
       - key: READ_MSG
         value: "false"
       - key: SAVE_STATUS
